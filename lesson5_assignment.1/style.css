@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document created by Maddie Johnson, Spring 2019*/
+
+body {
+    
+	font-family: 'Gothic A1', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.6em;
+	color: #FFF;
+	background-color: #8A807E;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+    font-family: 'Gothic A1';
+	letter-spacing: 0.1em;
+	line-height: 1.8em;
+	color: #FFF;
+}
+h1 {
+    font-family: 'Julius Sans One';
+	font-size: 50px;
+	letter-spacing: 0.1em;
+	padding: 40px 0 0 0;
+}
+h2 {
+    font-family: 'Julius Sans One';
+    color: #510A12;
+	font-size: 20px;
+	padding: 8px;
+	letter-spacing: 0.3em;
+	border-top: 1px solid #510A12;
+	border-bottom: 1px solid #510A12;
+}
+h3 {
+    color: #510A12;
+	font-size: 17px;
+	letter-spacing: 0.3em;
+	padding: 4px 0;
+	border-top: 1px solid #510A12;
+	border-bottom: 1px solid #510A12;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #D3D1CE;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #D3D1CE;
+	text-decoration: none;
+}
+a:hover {
+	color: #510A12;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 15px;
+}
+ol {
+	margin-left: 15px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #510A12 1px;
+}
+td {
+	padding: 10px;
+	border: solid #510A12 1px;
+}
+th {
+	font-weight: bold;
+	background-color: rgba(81,10,18, 0.6);
+	text-align: center;
+	padding: 10px;
+	border: solid #510A12 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #510A12 0.8px;
+}
+
+iframe {
+    background-color: rgba(211, 209,  206, 0.5);
+	padding: 8px;
+	margin: 8px;
+}
