@@ -11,85 +11,161 @@ body {
 	padding: 0 40px;
 }
 
-/* basic text styles ----------------------------  */
+/* BASIC TEXT STYLES ----------------------------  */
+
 p, li, td {
     font-family: 'Gothic A1';
 	letter-spacing: 0.1em;
 	line-height: 1.8em;
 	color: #FFF;
+	padding-left: 30px;
 }
+
 h1 {
     font-family: 'Julius Sans One';
 	font-size: 50px;
 	letter-spacing: 0.1em;
-	padding: 40px 0 0 0;
+	padding: 40px 0 0 30px;
 }
+
 h2 {
+	width: 900px;
     font-family: 'Julius Sans One';
     color: #510A12;
 	font-size: 20px;
-	padding: 8px;
+	padding: 8px 0 8px 30px;
+	margin: 30px 0;
 	letter-spacing: 0.3em;
 	border-top: 1px solid #510A12;
 	border-bottom: 1px solid #510A12;
 }
+
 h3 {
     color: #510A12;
+    width: 900px;
 	font-size: 17px;
 	letter-spacing: 0.3em;
-	padding: 4px 0;
+	padding: 8px 0 8px 30px;
 	border-top: 1px solid #510A12;
 	border-bottom: 1px solid #510A12;
 	font-variant: small-caps;
 	font-style: italic;
 }
 
-/* link styles ---------------------------- */
+/* LINK STYLES ---------------------------- */
+
 a:link {
 	font-weight: bold;
 	color: #D3D1CE;
 	text-decoration: none;
 }
+
 a:visited {
 	font-weight: bold;
 	color: #D3D1CE;
 	text-decoration: none;
 }
+
 a:hover {
 	color: #510A12;
 }
 
-/* list styles ----------------------------- */
+/* LIST STYLES ----------------------------- */
 ul li {
 	margin-left: 15px;
 }
+
 ol {
 	margin-left: 15px;
 }
 
-/* table styles -------------------------------------- */
+/* TABLE STYLES -------------------------------------- */
+
 table {
 	border: solid #510A12 1px;
+	margin-left: 30px;
 }
+
 td {
-	padding: 10px;
 	border: solid #510A12 1px;
+	padding: 8px;
 }
+
 th {
 	font-weight: bold;
 	background-color: rgba(81,10,18, 0.6);
 	text-align: center;
-	padding: 10px;
+	padding: 8px;
 	border: solid #510A12 1px;
 }
 
-/* border styles ------------------------------------ */
+/* BORDER STYLES ------------------------------------ */
+
 hr {
 	border: solid #510A12 0.8px;
+	width: 900px;
 }
 
 iframe {
     background-color: rgba(211, 209,  206, 0.5);
 	padding: 8px;
-	margin: 8px;
+	margin: 20px 30px;
+}
+
+img {
+	margin: 20px 30px;
+	border: solid #FFF 0.8px;
+	padding: 9px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT ------------------------ */
+
+#container {
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #8A807E; 
+	overflow: hidden;
+}
+
+#header { 
+	padding-bottom: 35px;
+	background-color: rgba(81,10,18, 0.6);
+}
+
+#content {
+	width: 600px;
+	float: left; 
+	padding-bottom: 40px;
+}
+
+#sidebar { 
+	width: 240px; 
+	float: left;
+	margin: 120px 0 0 55px;
+	padding: 11px 0;
+	background: rgba(211, 209,  206, 0.3);
+	border: 1px solid #FFF;
+	border-radius: 8px;
+}
+
+#sidebar p {
+	text-align: right;
+}
+
+#sidebar img {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#footer {
+	clear: both;
+	width: 100%; 
+	background-color: #8A807E;
+	border-top: 1px solid #510A12;
+}
+
+#footer p {
+	margin: 0;
+	padding: 30px;
 }
